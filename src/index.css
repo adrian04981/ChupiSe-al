@@ -41,6 +41,20 @@ button.btn {
   cursor: pointer;
 }
 
+/* Enlace de GitHub */
+a {
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #F27052; /* Cambia el color al pasar el mouse */
+}
+
+.fab {
+  margin-right: 8px;
+}
+
 /* Media Queries para pantallas pequeñas */
 @media (max-width: 768px) {
   h1 {
